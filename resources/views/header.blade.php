@@ -99,14 +99,14 @@
 								</li> 
 								
 								<li class="dropdown">
-									<a href="#">Blog <i class="fa fa-angle-down"></i></a>
+									<a href="{{ route('blog') }}">Blog <i class="fa fa-angle-down"></i></a>
 									<ul role="menu" class="sub-menu">
 										<li><a href="{{ route('blog') }}">Blog List</a></li>
 										<li><a href="{{ route('blog-single') }}">Blog Single</a></li>
 									</ul>
 								</li> 
 
-								<li><a href="#">404</a></li> 
+								<li><a href="{{ route('404') }}">404</a></li> 
 								<li><a href="{{ route('contact') }}">Contact</a></li>
 							</ul>
 

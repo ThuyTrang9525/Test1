@@ -77,4 +77,8 @@ class PageController extends Controller
     {
         return view('page.blog-single');
     }
+    public function getError()
+    {
+        return view('page.404');
+    }
 }

@@ -23,4 +23,5 @@ Route::get('checkout', [PageController::class, 'getCheckout'])->name('checkout')
 Route::get('cart', [PageController::class, 'getCart'])->name('cart');
 Route::get('blog', [PageController::class, 'getBlog'])->name('blog');
 Route::get('blog-single', [PageController::class, 'getBlogSingle'])->name('blog-single');
+Route::get('error', [PageController::class, 'getError'])->name('error');
 
